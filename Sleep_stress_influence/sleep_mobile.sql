@@ -11,14 +11,16 @@ HAVING COUNT(user_id) > 1;
 .....Analyzing average metrics by occupation: determination of 
 stress level against professions;
 
-SELECT occupation, Round(avg(sleep_duration_hours), 2) AS avg_sleep, Round(avg(stress_level), 2) AS avg_stress
+SELECT occupation, Round(avg(sleep_duration_hours), 2) AS avg_sleep, 
+Round(avg(stress_level), 2) AS avg_stress
 FROM sleep_mobile_stress_dataset_15000
 GROUP BY occupation
 ORDER BY avg_stress desc;
 
 ......determining the impact of sleep quality on stress-level;
 
-SELECT occupation, Round(avg(sleep_quality_score), 2) AS avg_qualitysleep, Round(avg(stress_level), 2) AS avg_stress
+SELECT occupation, Round(avg(sleep_quality_score), 2) AS avg_qualitysleep,
+Round(avg(stress_level), 2) AS avg_stress
 FROM sleep_mobile_stress_dataset_15000
 GROUP BY occupation
 ORDER BY avg_stress desc;
@@ -47,7 +49,7 @@ FROM sleep_mobile_stress_dataset_15000
 GROUP BY gender
 ORDER BY daily_screen asc;
 
-.....The impact of caffeine on the level of stress again occupation;
+.....The effect of caffeine on stress_level against occupation;
 
 SELECT Occupation, Count(caffeine_intake_cups) AS total_caffeine_cups,
 Round(avg(stress_level), 2) AS avg_stress
@@ -67,14 +69,14 @@ ORDER BY total_caffeine_cups desc;
 SELECT *
 FROM sleep_mobile_stress_dataset_15000;
 
-....Checking the effect of stress_level against caffeine_intake;
+....Checking the relationship between stress_level and caffeine_intake;
 
 SELECT stress_level, avg(caffeine_intake_cups)
 FROM sleep_mobile_stress_dataset_15000
 GROUP BY stress_level
 ORDER BY stress_level desc;
 
-...Determining the relationship of sleep_duration intake against age;
+...Determining the influence of age on sleep_duration intake age;
 
 SELECT MAX(age), MIN(age)
 FROM sleep_mobile_stress_dataset_15000; 
