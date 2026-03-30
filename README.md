@@ -3,7 +3,7 @@ A collection of SQL projects and queries developed while analysing datasets. Thi
 
 ## Projects
 
-* **[Amazon Sales Analysis](./Amazon%20project)** - analysis of amazon salesdata using sql to identify trends and calculate average ratings.
-* **[Chocolate Sales](./Chocolate%20Sales)** - inmsights into chocolate sales performance and distribution
-* **[Sleep & Stress Influence](./Sleep_stress_influence)** - a study on how sleep patterns affect stress level.
-* **[Student Performance](./Student)** - analysis of student data to find key factors in academic success.
+* **[Amazon Sales Analysis](./Amazon%20project)** - Analysis of amazon salesdata using sql to identify trends and calculate average ratings.
+* **[Chocolate Sales](./Chocolate%20Sales)** - Insights into chocolate sales performance and distribution
+* **[Sleep & Stress Influence](./Sleep_stress_influence)** - A study on how sleep patterns affect stress level.
+* **[Student Performance](./Student)** - Analysis of student data to find key factors in academic success.
