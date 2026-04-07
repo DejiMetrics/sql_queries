@@ -7,7 +7,8 @@ A collection of SQL projects and queries developed while analysing datasets. Thi
 * <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 36 18" src="https://github.com/user-attachments/assets/ab2d6af5-2609-401b-9ea1-009bbd91c262" />
 * <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 38 54" src="https://github.com/user-attachments/assets/7a08de3a-e5ac-4950-877f-84fd4605adec" />
 * <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 40 51" src="https://github.com/user-attachments/assets/a404e821-4b6f-49e0-9070-95d4e704da03" />
-* <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 41 58" src="https://github.com/user-attachments/assets/c1e7483b-5e38-4496-872c-e9d53e5b9405" />
+* <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 41 58" src="https://github.com/user-attachments/assets/c1e7483b-5e38-4496-872c-e9d53e5b9405" /> <img width="1470" height="956" alt="Screenshot 2026-04-07 at 23 43 48" src="https://github.com/user-attachments/assets/41375824-add6-4c30-a9da-b75819f9efa8" />
+
 
 
 
